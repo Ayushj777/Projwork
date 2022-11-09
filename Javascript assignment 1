@@ -1,0 +1,17 @@
+function getLargest(a, b, c, d, e) {
+    let numArray = [b, c, d, e];
+    let largest = a;
+  
+    for (let item of numArray) {
+      if (item > largest) {
+        largest = item;
+      }
+    }
+    return largest;
+  }
+  
+  console.log(getLargest(1, 2, 3, 4, 5));
+  console.log(getLargest(2, 3, 4, 5, 1));
+  console.log(getLargest(3, 4, 5, 1, 2));
+  console.log(getLargest(4, 5, 1, 2, 3));
+  console.log(getLargest(5, 1, 2, 3, 4));
