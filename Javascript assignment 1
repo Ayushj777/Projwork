@@ -10,8 +10,8 @@ function getLargest(a, b, c, d, e) {
     return largest;
   }
   
-  console.log(getLargest(1, 2, 3, 4, 5));
-  console.log(getLargest(2, 3, 4, 5, 1));
-  console.log(getLargest(3, 4, 5, 1, 2));
-  console.log(getLargest(4, 5, 1, 2, 3));
-  console.log(getLargest(5, 1, 2, 3, 4));
+  console.log(getLargest(23,432,453, 4, 5));
+  console.log(getLargest(2, 543, 4, 5, 1));
+  console.log(getLargest(3, 4, 534, 1, 2));
+  console.log(getLargest(421, 5, 12, 2, 3));
+  console.log(getLargest(435, 1, 221, 3, 4));
