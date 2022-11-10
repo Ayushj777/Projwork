@@ -1,0 +1,25 @@
+let n = 5;
+let m = 5;
+for(let j=0; j<m; j++){
+for(let i=0; i<n; i++){
+let boite = document.createElement("p");
+boite.innerHTML = i+1;
+  
+document.querySelector("body").appendChild(boite);
+ 
+}
+ 
+document.write("<br>");
+}
+body{
+  margin: 20px;
+  background-color: white;
+}
+p{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 30px;
+  border: 2px solid white;
+  display: inline-block;
+}
